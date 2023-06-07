@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #6A5ACD;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+    background-color: #4169E1;
+    color: white;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+}
+
+main{
+   
+   border-radius: 15px;
+}
+.libra{
+    background-color: #4169E1;
+    width: 20%;
+    text-align: center;
+    margin: 50px;
+    border: solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+#signoimg{
+    width: 60%;
+   
+}
+#signoimgtds{
+    width: 60%;
+    
+}
+.enblobasignos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.englobaheader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(38, 159, 214);
+    gap: 20px;
+    padding-top: 15px;
+}
+
+p{
+    color: white;
+    font-size: 25px;
+}
+
+footer{
+    background-color: #4169E1;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+   
+}
+
+button{
+    width: 30%;
+}
